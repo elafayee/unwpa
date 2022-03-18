@@ -14,29 +14,29 @@
         <img class="position-absolute top-0 start-0" src="assets\homepage\header-logobg.png" width="50%">
         <img class="position-absolute top-10 start-0 w-sm" src="assets\homepage\main-logo.png" height="25%">
 
-        <div class="nav justify-content-end" style="margin-top:-12%; color:white">
+        <div class="nav justify-content-end" style="margin-top:-3%; font-size:24px; font-weight:bold; color:white">
             <ul class="nav">
                 <li class="nav-item" style="color: white;">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link text-light" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item text-light">
+                    <a class="nav-link text-light" href="#">NEWS AND UPDATES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">NEWS AND UPDATE</a>
+                    <a class="nav-link text-light" href="#">AMBASSADORS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">AMBASSADORS</a>
+                    <a class="nav-link text-light">CONFERENCES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled">CONFERENCES</a>
+                    <a class="nav-link text-light" href="#">STRUCTURE MEMBERS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">STRUCTURE MEMBERS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
+                    <a class="nav-link text-light" href="#">ABOUT US</a>
                 </li>
             </ul>
         </div>
-
+            
     </div>
 
     </div>
