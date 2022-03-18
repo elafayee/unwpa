@@ -1,0 +1,12 @@
+.header-bg {
+    background-image: url('../homepage/header-rec.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position-x: left;
+}
+
+.logo-bg {
+    background-image: url('../homepage/header-logobg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
