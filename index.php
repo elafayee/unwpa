@@ -123,7 +123,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-        <div class="row">
+        <div class="row m-0 p-0">
             <div class="col-sm-12" style="background-color: #264caa; height:10px;"></div>
             </div>
         </div>
@@ -138,6 +138,8 @@
             </div>
         </div>
     </div>
+
+
 
     <!-- Footer Section -->
     <div class="container-fluid header-bg">
