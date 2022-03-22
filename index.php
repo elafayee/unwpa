@@ -19,44 +19,25 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="2000">
-          <img src="assets\carousel\1.jpg" style="width: 100%" class="d-block w-100 img-fluid" alt="...">
-          <div class="carousel-caption d-none d-md-block mb-5">
-            <h1>First slide label</h1>
+        <div class="carousel-item active">
+          <img src="assets\carousel\01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="assets\carousel\2.jpg" style="width: 100%" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-item">
+          <img src="assets\carousel\02.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="assets\carousel\3.jpg" style="width: 100%" class="d-block w-100" alt="...">
+        <div class="carousel-item">
+          <img src="assets\carousel\03.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\4.jpg" style="width: 100%" class="d-block w-100 img-fluid" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\5.jpg" style="width: 100%" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
           </div>
         </div>
       </div>
