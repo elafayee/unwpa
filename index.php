@@ -12,51 +12,32 @@
   <?php include 'includes\header.php' ?>
   <!-- Carousel Section -->
   <div class="container-fluid m-0 p-0 pageCarousel">
-    <div id="pageCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <img src="assets\carousel\1.jpg" class="d-block w-100 img-fluid" alt="...">
-          <div class="carousel-caption d-none d-md-block mb-5">
-            <h1>First slide label</h1>
+        <div class="carousel-item active">
+          <img src="assets\carousel\01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\2.jpg" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-item">
+          <img src="assets\carousel\02.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-item">
+          <img src="assets\carousel\03.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\4.jpg" class="d-block w-100 img-fluid" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\5.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
           </div>
         </div>
       </div>
@@ -73,7 +54,7 @@
 
   <!-- Section 1 -->
   <div class="container-fluid">
-    <div class="row my-5 py-5" style="background-color: gray;">
+    <div class="row my-5 py-5  section-1">
       <div class="col-sm-12 p-5 fs-4">
           <h1 class="text-center text-light fw-bold">United Nation World Peace Assocation (WPA)</h1>
           <p class="text-center px-5 text-light fw-light my-4 fs-4 w-75 mx-auto">UNWPA is confident that the world as a whole will be improve though activities that protect the right of people to live in peace, solving real world problems not reported in the Japanese mass media.</p>
