@@ -3,6 +3,8 @@ $borderColor2: #ffc228;
 $backgroundColor: #2861F6;
 $gradientColor1: #330d69;
 $gradientColor2: #30c9cd;
+$grayGradientColor1: #959595;
+$grayGradientColor2: #646464;
 
 .header-bg {
     background-color: $backgroundColor;
@@ -49,4 +51,8 @@ ul.social-media {
 .recent-events {
     background-image: linear-gradient(165deg, $gradientColor1, $gradientColor2);
 
+}
+
+.section-1 {
+    background-image: linear-gradient(to right, $grayGradientColor2, $grayGradientColor1);
 }
