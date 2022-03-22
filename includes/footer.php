@@ -34,7 +34,7 @@
         <div class="d-flex justify-content-start">
           <div class="row m-0 p-0">
             <div class="col-sm-3">
-                <img src="assets\homepage\logo.png" alt="" class="img-fluid">
+                <img src="assets\homepage\footer-unwpa-logo.png" alt="" class="img-fluid">
             </div>
             <div class="col-sm-6 text-light  mt-3" style="font-size: 10px; line-height: 5px;">
                 <p>UNITED NATION WORLD PEACE ASSOCATION</p>
