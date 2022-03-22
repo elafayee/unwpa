@@ -38,7 +38,31 @@ ul.social-media li img {
 }
 
 .section-1 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#646464), to(#959595));
-  background-image: linear-gradient(to right, #646464, #959595);
+  background-image: url("../assets/homepage/overlay-logo.png"), linear-gradient(140deg, #646464, #959595);
+  background-position: -24rem 3rem, left;
+  background-size: contain, cover;
+  background-repeat: no-repeat,no-repeat;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 200;
+}
+
+.carousel-caption button {
+  color: #264caa;
+}
+
+.carousel-item {
+  background: black;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 100;
+}
+
+.section-right {
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
