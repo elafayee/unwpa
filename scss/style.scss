@@ -5,6 +5,12 @@ $gradientColor1: #330d69;
 $gradientColor2: #30c9cd;
 $grayGradientColor1: #959595;
 $grayGradientColor2: #646464;
+$formColor1: #F4B63C;
+$formColor2: #FFDA7E;
+$formColor3: #FFE7A9;
+$formColorStroke: #FFC228;
+$formBgColor: #D78E00;
+
 
 .header-bg {
     background-color: $backgroundColor;
@@ -83,6 +89,54 @@ ul.social-media {
     font-size: 10px;
 }
 
-.upcoming-events {
-    
+.left-element-with-background-image {
+    position: relative;
+   background-image: url("../assets/upcoming-events/CONFERENCE.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 90vh;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.left-color-overlay {
+   background-image: linear-gradient(269deg, #24314C, #24314c85);
+}
+
+.right-bg {
+    background-color: #24314C;
+}
+
+.form-registration {
+    h1 {
+        color: $formColor1;
+    }
+
+    h3 {
+        color: $formColor2;
+    }
+}
+
+
+.form-input {
+    input {
+        background-color: #24314C;
+        border: 1px solid $formColorStroke;
+    }
+
+    input::placeholder {
+        color:$formColor3;
+    }
+
+    button {
+        background-color: $formBgColor;
+        border: none;
+    }
 }
