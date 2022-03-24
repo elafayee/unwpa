@@ -10,6 +10,7 @@ $formColor2: #FFDA7E;
 $formColor3: #FFE7A9;
 $formColorStroke: #FFC228;
 $formBgColor: #D78E00;
+$conferenceColor: #24314C;
 
 
 .header-bg {
@@ -139,4 +140,59 @@ ul.social-media {
         background-color: $formBgColor;
         border: none;
     }
+}
+
+.head-bg {
+    height: 100vh;
+    margin: 0;
+    background-image: url('../assets/conference-participation/header-bg.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.head-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 65%;
+    background: rgba($color: #24314C, $alpha: 0.65);
+    transform: skew(-30deg);
+    transform-origin:top;
+}
+
+.conference-button {
+    background-color: transparent;
+}
+
+.participation-section {
+    color: $conferenceColor;
+    button {
+        background-color: transparent;
+        border: 1px solid $conferenceColor;
+        color: $conferenceColor;
+        border-radius: 0;
+    }
+}
+
+.post1 {
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    position: relative;
+}
+
+.post1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 65%;
+    background: rgba($color: #24314C, $alpha: 0.65);
+    transform: skew(-30deg);
+    transform-origin:top;
 }
