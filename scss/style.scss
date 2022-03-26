@@ -3,6 +3,8 @@ $borderColor2: #ffc228;
 $backgroundColor: #2861F6;
 $gradientColor1: #330d69;
 $gradientColor2: #30c9cd;
+$backgroundColor2: #24314C;
+
 
 .header-bg {
     background-color: $backgroundColor;
@@ -29,7 +31,7 @@ ul.social-media {
 }
 
 .latest-news-and-events {
-    
+
     .news-and-events-container {
         border: 5px solid $borderColor1;
         padding: 5px;
@@ -50,3 +52,17 @@ ul.social-media {
     background-image: linear-gradient(165deg, $gradientColor1, $gradientColor2);
 
 }
+
+.bg-primary-cardbackground {
+    background-color: $backgroundColor2;
+}
+
+.border-warning-circle {
+    border-color: #ffc228;
+    border-width: 10px;
+
+}
+
+
+
+
