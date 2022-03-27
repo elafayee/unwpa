@@ -49,7 +49,7 @@ ul.social-media li img {
 .img-fluid-profile {
   height: auto;
   width: 59%;
-  margin-left: 59px;
+  margin-left: 90px;
 }
 
 .img-size {
@@ -59,21 +59,20 @@ ul.social-media li img {
 }
 
 .parallelogram {
-  width: 172px;
+  width:max-content;
   transform: skew(-39deg);
   background-color: #264caa;
   text-align: center;
-  margin-left: 86px;
+  /* margin-left: 86px; */
   margin-top: -23px;
   height: 22px;
 }
 
 .parallelogram-members {
-  width: 172px;
+  width:max-content;
   transform: skew(-39deg);
   background-color: #264caa;
   text-align: center;
-  margin-left: 125px;
   margin-top: -23px;
   height: 22px;
 }
@@ -88,7 +87,7 @@ ul.social-media li img {
 }
 
 .vr {
-  margin-left: 10px;
+  margin-right: 3px;
   width: 3px;
   transform: skew(38deg);
   background-color: #FFC228;
@@ -98,7 +97,7 @@ ul.social-media li img {
 }
 
 .text-white-subtext {
-  margin-left: 63px !important;
+  margin-left: 110px !important;
 }
 
 .bkgnd {
