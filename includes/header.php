@@ -23,7 +23,7 @@ echo '<div class="container-fluid m-0 p-0 header-bg">
           </li>
           <ul class="navbar-nav">
           <li class="nav-item">
-          <a class="nav-link text-light fw-bold  mx-1" aria-current="page" href="#">CONFERENCES</a>
+          <a class="nav-link text-light fw-bold  mx-1" aria-current="page" href="/conference-participation.php">CONFERENCES</a>
           </li>
           <li class="nav-item">
           <a class="nav-link text-light fw-bold mx-1" href="structureMembers.php">STRUCTURE MEMBERS</a>

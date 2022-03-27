@@ -118,4 +118,281 @@ ul.social-media li img {
   padding-left: 3px;
   padding-right: 3px;
 }
+.section-1 {
+  background-image: url("../assets/homepage/overlay-logo.png"), linear-gradient(140deg, #646464, #959595);
+  background-position: -24rem 3rem, left;
+  background-size: contain, cover;
+  background-repeat: no-repeat,no-repeat;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 200;
+}
+
+.carousel-caption button {
+  color: #264caa;
+}
+
+.carousel-item {
+  background: black;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 100;
+}
+
+.section-right {
+  font-size: 10px;
+}
+
+.left-element-with-background-image {
+  position: relative;
+  background-image: url("../assets/upcoming-events/CONFERENCE.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.left-color-overlay {
+  background-image: linear-gradient(269deg, #24314C, #24314c85);
+}
+
+.right-bg {
+  background-color: #24314C;
+}
+
+.form-registration h1 {
+  color: #F4B63C;
+}
+
+.form-registration h3 {
+  color: #FFDA7E;
+}
+
+.form-input input {
+  background-color: #24314C;
+  border: 1px solid #FFC228;
+}
+
+.form-input input::-webkit-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input:-ms-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input::-ms-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input::placeholder {
+  color: #FFE7A9;
+}
+
+.form-input button {
+  background-color: #D78E00;
+  border: none;
+}
+
+.head-bg {
+  height: 100vh;
+  margin: 0;
+  background-image: url("../assets/conference-participation/header-bg.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.head-bg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 65%;
+  background: rgba(36, 49, 76, 0.65);
+  -webkit-transform: skew(-30deg);
+          transform: skew(-30deg);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.conference-button {
+  background-color: transparent;
+}
+
+.participation-section {
+  color: #24314C;
+}
+
+.participation-section button {
+  background-color: transparent;
+  border: 1px solid #24314C;
+  color: #24314C;
+  border-radius: 0;
+}
+
+.post1 {
+  height: 205vh;
+  margin: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.post1 h3 {
+  color: #FFC228;
+}
+
+.post1 h2 {
+  color: #FFC228;
+}
+
+.post1 p {
+  color: #FFDA7E;
+}
+
+.post1:before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: #24314c;
+  -webkit-transform: skewY(4deg);
+          transform: skewY(4deg);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.post3 {
+  height: 65vh;
+  margin: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.post3 h3 {
+  color: #FFC228;
+}
+
+.post3 h4 {
+  color: #FFDA7E;
+}
+
+.post3 p {
+  color: #FFF3D4;
+}
+
+.post3:before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: #24314c;
+  -webkit-transform: skewY(4deg);
+          transform: skewY(4deg);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.post-participants h5 {
+  color: #FFDA7E;
+}
+
+.post-participants p {
+  color: #FFF3D4;
+}
+
+.post-participants1 h5 {
+  color: #333B4E;
+}
+
+.post-participants1 p {
+  color: #01081A;
+}
+
+.post1-1 {
+  height: 15vh;
+  margin: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.post1-1:before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: #24314c;
+  -webkit-transform: skewY(-4deg);
+          transform: skewY(-4deg);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.post3-1 {
+  height: 15vh;
+  margin: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.post3-1:before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: #24314c;
+  -webkit-transform: skewY(0deg);
+          transform: skewY(0deg);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.gallery-show {
+  position: relative;
+}
+
+.gallery-show .gallery-layer {
+  position: absolute;
+  top: 0;
+  width: 97%;
+  height: 87%;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+.small-gallery-layer {
+  position: relative;
+}
+
+.small-gallery-layer .layer-img {
+  background-color: rgba(0, 0, 0, 0.363);
+  position: absolute;
+  top: 0;
+  width: 75%;
+  height: 90%;
+}
 /*# sourceMappingURL=style.css.map */
