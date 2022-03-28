@@ -39,6 +39,7 @@ ul.social-media li img {
 
 .section-1 {
   background-image: url("../assets/homepage/overlay-logo.png"), linear-gradient(140deg, #646464, #959595);
+  opacity: 0.5;
   background-position: -24rem 3rem, left;
   background-size: contain, cover;
   background-repeat: no-repeat,no-repeat;
@@ -64,5 +65,9 @@ ul.social-media li img {
 
 .section-right {
   font-size: 10px;
+}
+
+.upcoming-events {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
