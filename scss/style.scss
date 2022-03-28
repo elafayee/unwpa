@@ -183,6 +183,7 @@ ul.social-media {
 
 .section-1 {
     background-image: url('../assets/homepage/overlay-logo.png'), linear-gradient(140deg, $grayGradientColor2, $grayGradientColor1);
+    opacity: 0.5;
     background-position: -24rem 3rem, left;
     background-size: contain, cover;
     background-repeat: no-repeat,no-repeat;
