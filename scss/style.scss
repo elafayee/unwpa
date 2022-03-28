@@ -3,6 +3,15 @@ $borderColor2: #ffc228;
 $backgroundColor: #2861F6;
 $gradientColor1: #330d69;
 $gradientColor2: #30c9cd;
+<<<<<<< HEAD
+$whitebg: #FFFFFF;
+$aboutbgcolor1: #F0F5FF;
+$aboutbgcolor2:#E8EFFF;
+$aboutbgcolor3: #BAD0FC;
+$aboutbgalt1: linear-gradient(to bottom, #F0F5FF 50%,  #E8EFFF 50%);
+$aboutbgalt2: linear-gradient(to bottom, #E8EFFF 50%, #F0F5FF 50%);
+
+=======
 $backgroundColor2: #24314C;
 $grayGradientColor1: #959595;
 $grayGradientColor2: #646464;
@@ -12,6 +21,7 @@ $formColor3: #FFE7A9;
 $formColorStroke: #FFC228;
 $formBgColor: #D78E00;
 $conferenceColor: #24314C;
+>>>>>>> 94631d64e8f50f53d13016468833d5b875b9c603
 
 
 .header-bg {
@@ -61,6 +71,103 @@ ul.social-media {
 
 }
 
+<<<<<<< HEAD
+// About us
+
+.aboutTitle{
+    background: $aboutbgcolor1;
+}
+
+.missionTitleBg{
+    background-color: $aboutbgcolor3;
+    
+}
+
+.missionBg{
+    background-color: $aboutbgcolor2;
+}
+
+.visionTitleBg{
+    background-color: $aboutbgcolor3;
+}
+
+.visionBg{
+    background-color: $aboutbgcolor1;
+}
+
+.seperatorBg1{
+    background: $aboutbgalt1;
+}
+
+.seperatorBg2{
+    background: $aboutbgalt2;
+}
+
+// UNWPA Board Members
+
+.members_seperatorbg1{
+    background: $aboutbgalt1;
+    align-items: center;
+}
+
+.memberTitle{
+    margin-top: 8rem;
+}
+.membersTitleBg{
+    background-color: $aboutbgcolor3;
+}
+
+.membersContainer{
+    background: $aboutbgcolor2;
+}
+
+.memberCards{
+    background: $whitebg;
+}
+
+.memberName{
+    text-align: center;
+    font-weight: bold;
+}
+
+.memberPos{
+    text-align: center;
+    font-weight: bold;
+}
+
+.memberCard0{
+    width: 35rem;
+    background: blanchedalmond;
+}
+
+.img-fluid-profImage{
+    width: 7rem;
+    padding: 2px;
+    margin-left: 2rem;
+    position: absolute;
+}
+
+.img-fluid-memProf{
+    display: block;
+    width: 6.5rem;
+    padding: 2px;
+    margin-left: 2rem;
+    position: absolute;
+}
+
+.memberCard1{
+    width: 8rem;
+    height: 6rem;
+}
+
+.divider1{
+    justify-content: space-between;
+
+}
+
+
+
+=======
 .bg-primary-cardbackground {
     background-color: $backgroundColor2;
 }
@@ -339,3 +446,4 @@ ul.social-media {
         height: 90%;
     }
 }
+>>>>>>> 94631d64e8f50f53d13016468833d5b875b9c603
