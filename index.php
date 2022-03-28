@@ -128,7 +128,7 @@
           <div class="col-sm-8">
             <p>UNWPA INTERS La Consolacion University Philippines</p>
             <p>United Nation World Peace Assocation welcomes the third batch of student interns from La Consolacion University Philippines, Malolos, Bulacan. The interns will be trained virtually for 12 months in events planning and social media marketing.</p>
-            <button class="btn btn-primary">View More</button>
+            <button class="btn btn-primary news-button">VIEW MORE</button>
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@
           <div class="col-sm-8">
             <p>UNWPA INTERS La Consolacion University Philippines</p>
             <p>United Nation World Peace Assocation welcomes the third batch of student interns from La Consolacion University Philippines, Malolos, Bulacan. The interns will be trained virtually for 12 months in events planning and social media marketing.</p>
-            <button class="btn btn-primary">View More</button>
+            <button class="btn btn-primary news-button">VIEW MORE</button>
           </div>
         </div>
         <div class="row">
@@ -150,7 +150,7 @@
           <div class="col-sm-8">
             <p>UNWPA INTERS La Consolacion University Philippines</p>
             <p>United Nation World Peace Assocation welcomes the third batch of student interns from La Consolacion University Philippines, Malolos, Bulacan. The interns will be trained virtually for 12 months in events planning and social media marketing.</p>
-            <button class="btn btn-primary">View More</button>
+            <button class="btn btn-primary news-button">VIEW MORE</button>
           </div>
         </div>
       </div>
@@ -168,7 +168,7 @@
             <div class="card-body">
               <h5 class="card-title">Blanket Distribution Program</h5>
               <p class="card-text">Like every year, yesterday on 07/01/2022 Friday UNWPA Bangladesh team arranged a day long Blanket Distribution Program to the poor and needy people in Dhaka Bangladesh for this winter...</p>
-              <a href="#" class="btn btn-primary">VIEW MORE</a>
+              <a href="#" class="btn btn-primary events-button">VIEW MORE</a>
             </div>
           </div>
         </div>
@@ -178,7 +178,7 @@
             <div class="card-body">
               <h5 class="card-title">Typhoon hits Malaysia</h5>
               <p class="card-text">Shah Alam flood mission for the affected area of typhoon. With UNWPA Malaysia, FOC family of Charity, Beacon Society Shary Azmi, Meor Arif. Amb. Marietta Reformado Unwpa Malaysia Head Representative #UNWPA #UNWPAMALAYSIA</p>
-              <a href="#" class="btn btn-primary">VIEW MORE</a>
+              <a href="#" class="btn btn-primary events-button">VIEW MORE</a>
             </div>
           </div>
         </div>
@@ -188,7 +188,7 @@
             <div class="card-body">
               <h5 class="card-title">UNWPA BANGLADESH AND UNWPA INDIA COLLABORATION FOR CHARITY EVENTS</h5>
               <p class="card-text">UNWPA India welcomes UNWPA Bangladesh for charity events that will be held from December 21,2021. #UNWPA #UNWPABANGLADESH #UNWPAINDIA</p>
-              <a href="#" class="btn btn-primary">VIEW MORE</a>
+              <a href="#" class="btn btn-primary events-button">VIEW MORE</a>
             </div>
           </div>
         </div>
