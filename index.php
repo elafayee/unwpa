@@ -9,54 +9,87 @@
 </head>
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <div class="container-fluid m-0 p-0 header-bg">
+    <div class="row mx-0">
+      <div class="col-sm-4 logo-bg mb-2">
+        <img src="assets\homepage\main-logo.png" alt="" srcset="" class="w-75 mt-2">
+      </div>
+      <div class="col-sm-8 h-50 d-flex mt-5">
+        <nav class="navbar navbar-expand-lg navbar-light align-self-end mt-5">
+          <a class="navbar-brand" href="#" disabled></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ">
+              <li class="nav-item">
+              <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link text-light fw-bold mx-1" href="#">NEWS AND UPDATES</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link text-light fw-bold mx-1" href="#">AMBASSADORS</a>
+              </li>
+              <ul class="navbar-nav">
+              <li class="nav-item">
+              <a class="nav-link text-light fw-bold  mx-1" aria-current="page" href="#">CONFERENCES</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link text-light fw-bold mx-1" href="#">STRUCTURE MEMBERS</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link text-light fw-bold mx-1" href="#">ABOUT US</a>
+              </li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  
   <!-- Carousel Section -->
   <div class="container-fluid m-0 p-0 pageCarousel">
-    <div id="pageCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <img src="assets\carousel\1.jpg" class="d-block w-100 img-fluid" alt="...">
-          <div class="carousel-caption d-none d-md-block mb-5">
-            <h1>First slide label</h1>
-            <p>Some representative placeholder content for the first slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
+        <div class="carousel-item active">
+          <img src="assets\carousel\01.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" >
+            <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
+            <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\2.jpg" class="d-block w-100 img-fluid" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
+        <div class="carousel-item">
+          <img src="assets\carousel\02.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" >
+            <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
+            <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
+        <div class="carousel-item">
+          <img src="assets\carousel\03.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" >
+            <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
+            <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\4.jpg" class="d-block w-100 img-fluid" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
+        <div class="carousel-item">
+          <img src="assets\carousel\04.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" >
+            <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
+            <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="assets\carousel\5.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary bg-light fw-bold" style="color: #264caa;">READ MORE</button>
+        <div class="carousel-item ">
+          <img src="assets\carousel\05.jpg" style="opacity: 0.9;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" >
+            <p class="fs-2 mb-5 fw-lighter">For people who need help from all over the world, we provide various support and activities such as fundraising and volunteer activities.</p>
+            <button class=" fw-bold fs-5 rounded-pill py-2 px-3 bg-light border-0">READ MORE</button>
           </div>
         </div>
       </div>
@@ -72,8 +105,8 @@
   </div>
 
   <!-- Section 1 -->
-  <div class="container-fluid">
-    <div class="row my-5 py-5" style="background-color: gray;">
+  <div class="container-fluid section-1">
+    <div class="row my-5 py-5">
       <div class="col-sm-12 p-5 fs-4">
           <h1 class="text-center text-light fw-bold">United Nation World Peace Assocation (WPA)</h1>
           <p class="text-center px-5 text-light fw-light my-4 fs-4 w-75 mx-auto">UNWPA is confident that the world as a whole will be improve though activities that protect the right of people to live in peace, solving real world problems not reported in the Japanese mass media.</p>
@@ -97,7 +130,7 @@
            </div>
          </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 section-right">
        <div class="row">
          <div class="col-sm-4">
            <img src="assets\latest news and updates\la-consolacion.png" alt="" class="img-fluid">
@@ -162,6 +195,63 @@
   </div>
 
   <!-- Footer Section -->
-  <?php include 'includes\footer.php' ?>
+  <div class="container-fluid header-bg">
+    <footer>
+      <div class="row d-flex justify-content-end m-0 p-0">
+        <div class="col-sm-8 h-50" style="height: 100px">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ">
+                  <li class="nav-item">
+                  <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-light fw-bold mx-1" href="#">NEWS AND UPDATES</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-light fw-bold mx-1" href="#">AMBASSADORS</a>
+                  </li>
+                  <ul class="navbar-nav">
+                  <li class="nav-item">
+                  <a class="nav-link text-light fw-bold  mx-1" aria-current="page" href="#">CONFERENCES</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-light fw-bold mx-1" href="#">STRUCTURE MEMBERS</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-light fw-bold mx-1" href="#">ABOUT US</a>
+                  </li>
+                  </ul>
+              </div>
+            </nav>
+        </div>
+      </div>
+      <div class="row m-0 p-0">
+        <div class="d-flex justify-content-start">
+          <div class="row m-0 p-0">
+            <div class="col-sm-3">
+                <img src="assets\homepage\logo.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-6 text-light  mt-3" style="font-size: 10px; line-height: 5px;">
+                <p>UNITED NATION WORLD PEACE ASSOCATION</p>
+                <p>SAPPORO SHI KITA KU KITA 34</p>
+                <p>JO NISHA 4 CHROME 1-1</p>
+                <p>RUSHINU N34 IF</p>
+            </div>
+          </div>
+          <div class="d-flex  justify-content-around my-4">
+            <ul class="nav col-md-4list-unstyled text-light ">
+              <li class="ms-3"><a class="text-primary" href="#"><img src="assets\social media\email.png" width="20px" alt=""></svg></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><img src="assets\social media\facebook.png" width="20px" alt=""></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><img src="assets\social media\twitter.png" width="20px" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="row m-0 p-0">
+        <p class="text-center text-light" style="font-size: 12px;">COPYRIGHT &copy | UNITED NATION WORLD PEACE ASSOCATION | ALL RIGHTS RESERVED</p>
+    </div>
+    </footer>
+  </div>
 </body>
 </html>
