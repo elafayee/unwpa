@@ -37,6 +37,101 @@ ul.social-media li img {
   background-image: linear-gradient(165deg, #330d69, #30c9cd);
 }
 
+<<<<<<< HEAD
+.aboutTitle {
+  background: #F0F5FF;
+}
+
+.missionTitleBg {
+  background-color: #BAD0FC;
+}
+
+.missionBg {
+  background-color: #E8EFFF;
+}
+
+.visionTitleBg {
+  background-color: #BAD0FC;
+}
+
+.visionBg {
+  background-color: #F0F5FF;
+}
+
+.seperatorBg1 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #F0F5FF), color-stop(50%, #E8EFFF));
+  background: linear-gradient(to bottom, #F0F5FF 50%, #E8EFFF 50%);
+}
+
+.seperatorBg2 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E8EFFF), color-stop(50%, #F0F5FF));
+  background: linear-gradient(to bottom, #E8EFFF 50%, #F0F5FF 50%);
+}
+
+.members_seperatorbg1 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #F0F5FF), color-stop(50%, #E8EFFF));
+  background: linear-gradient(to bottom, #F0F5FF 50%, #E8EFFF 50%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.memberTitle {
+  margin-top: 8rem;
+}
+
+.membersTitleBg {
+  background-color: #BAD0FC;
+}
+
+.membersContainer {
+  background: #E8EFFF;
+}
+
+.memberCards {
+  background: #FFFFFF;
+}
+
+.memberName {
+  text-align: center;
+  font-weight: bold;
+}
+
+.memberPos {
+  text-align: center;
+  font-weight: bold;
+}
+
+.memberCard0 {
+  width: 35rem;
+  background: blanchedalmond;
+}
+
+.img-fluid-profImage {
+  width: 7rem;
+  padding: 2px;
+  margin-left: 2rem;
+  position: absolute;
+}
+
+.img-fluid-memProf {
+  display: block;
+  width: 6.5rem;
+  padding: 2px;
+  margin-left: 2rem;
+  position: absolute;
+}
+
+.memberCard1 {
+  width: 8rem;
+  height: 6rem;
+}
+
+.divider1 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+=======
 .bg-primary-cardbackground {
   background-color: #24314C;
 }
@@ -120,6 +215,7 @@ ul.social-media li img {
 }
 .section-1 {
   background-image: url("../assets/homepage/overlay-logo.png"), linear-gradient(140deg, #646464, #959595);
+  opacity: 0.5;
   background-position: -24rem 3rem, left;
   background-size: contain, cover;
   background-repeat: no-repeat,no-repeat;
@@ -394,5 +490,20 @@ ul.social-media li img {
   top: 0;
   width: 75%;
   height: 90%;
+>>>>>>> 94631d64e8f50f53d13016468833d5b875b9c603
+}
+
+.news-button {
+  color: #fff;
+  background-color: #646464;
+  border-color: #0d6efd;
+  border-radius: 40px;
+}
+
+.events-button {
+  color: #fff;
+  background-color: #646464;
+  border-color: #0d6efd;
+  border-radius: 40px;
 }
 /*# sourceMappingURL=style.css.map */
