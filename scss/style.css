@@ -93,6 +93,7 @@ ul.social-media li img {
   background-color: #FFC228;
   opacity: unset;
   height: fit-content;
+  display: inline-block;
 
 }
 
