@@ -6,6 +6,7 @@
     <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
     <link href="assets\homepage\logo.png" rel="icon">
     <link rel="stylesheet" href="scss\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <!-- Header Section -->
