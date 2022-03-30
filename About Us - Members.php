@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <div class="container pt-5 pr-5 membersContainer">
+            <div class="container pt-5 pr-5  mb-5 membersContainer">
 
                 <div class="container-fluid row d-flex justify-content-center divider1">
                     <div class="card mt-5 px-5 memberCard0"> 
