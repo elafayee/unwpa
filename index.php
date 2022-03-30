@@ -108,6 +108,7 @@
 
   <!-- Section 1 -->
   <div class="container-fluid section-1">
+    <img class="img-fluid" src="assets\homepage\logo.png">
     <div class="row my-5 py-5">
       <div class="col-sm-12 p-5 fs-4">
         <h1 class="text-center text-light fw-bold">United Nation World Peace Assocation (WPA)</h1>
@@ -121,7 +122,7 @@
     <h3 class="fw-bolder my-2 fs-2">LATEST NEWS AND UPDATES</h3>
     <div class="row news-and-events-container">
       <div class="col-sm-6">
-        <div class="row">
+        <div class="row" style="height:97.5%">
           <div class="col-sm-4">
             <img src="assets\latest news and updates\la-consolacion.png" alt="" class="img-fluid">
           </div>
