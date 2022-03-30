@@ -47,8 +47,10 @@ ul.social-media li img {
 }
 
 .section-1 {
-  background-color: #646464;
-  background-image:linear-gradient(140deg, #646464, #959595);
+  background-image: url("../assets/homepage/overlay-logo.png"), linear-gradient(140deg, #646464, #959595);
+  background-position: -24rem 3rem, left;
+  background-size: contain, cover;
+  background-repeat: no-repeat,no-repeat;
 }
 
 .carousel-caption {
@@ -438,5 +440,10 @@ ul.social-media li img {
   }
 }
 
-
-/*# sourceMappingURL=style.css.map */
+#menuIcon {
+  background-image: url("../assets/burger.png");
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+}
+/*# sourceMappingURL=conference.css.map */
