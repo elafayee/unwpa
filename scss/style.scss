@@ -75,12 +75,33 @@ ul.social-media {
 
 
 .section-1 {
-    background-image: url('../assets/homepage/overlay-logo.png'), linear-gradient(140deg, $grayGradientColor2, $grayGradientColor1);
-    opacity: 0.5;
-    background-position: -24rem 3rem, left;
-    background-size: contain, cover;
-    background-repeat: no-repeat,no-repeat;
+    background-image: linear-gradient(140deg, $grayGradientColor2, $grayGradientColor1);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.overlay-logo {
+    opacity: .5;
+    position: absolute;
+    margin-left: -243px;
+}
+
+.news-button {
+    color: #fff;
+    background-color: #646464;
+    border-color: #0d6efd;
+    border-radius: 40px;
+}
+
+
+.events-button {
+    color: #fff;
+    background-color: #646464;
+    border-color: #0d6efd;
+    border-radius: 40px;
+}
+
 
 .carousel-caption {
     position: absolute;
