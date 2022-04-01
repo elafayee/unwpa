@@ -51,6 +51,72 @@ ul.social-media li img {
   border-width: 10px;
 }
 
+.border-warning-circle {
+  border-color: #ffc228;
+  border-width: 10px;
+}
+.img-fluid-profile {
+  height: auto;
+  width: 59%;
+  margin-left: 90px;
+}
+.img-size {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+.parallelogram {
+  width:max-content;
+  transform: skew(-39deg);
+  background-color: #264caa;
+  text-align: center;
+  /* margin-left: 86px; */
+  margin-top: -23px;
+  height: 22px;
+}
+.parallelogram-members {
+  width:max-content;
+  transform: skew(-39deg);
+  background-color: #264caa;
+  text-align: center;
+  margin-top: -23px;
+  height: 22px;
+}
+.text-white-fusao {
+  transform: skew(38deg);
+  margin-left: 4px;
+}
+.text-white-ayaka {
+  transform: skew(38deg);
+}
+.vr {
+  margin-right: 3px;
+  width: 3px;
+  transform: skew(38deg);
+  background-color: #FFC228;
+  opacity: unset;
+  height: fit-content;
+  display: inline-block;
+
+}
+
+.text-white-subtext {
+  margin-left: 110px !important;
+}
+.bkgnd {
+  background-color: #24314C;
+}
+.size {
+  border-radius: 0.25rem !important;
+}
+.more {
+  border-radius: 4px !important;
+  border: 1px solid white !important;
+  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
 .section-1 {
   background-image: linear-gradient(140deg, #646464, #959595);
   background-position: left;
