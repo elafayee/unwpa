@@ -71,9 +71,10 @@
   </div>
 
   <!-- Section 1 -->
-  <div class="container-fluid section-1">
+  <div class="container-fluid relative mt-5 section-1">
+    <img class="img-fluid absolute overlay-logo" src="assets\homepage\logo.png">
     <div class="row my-5 py-5">
-      <div class="col-sm-12 p-5 fs-4">
+      <div class="col-sm-12 p-5 fs-4 absolute">
         <h1 class="text-center text-light fw-bold">United Nation World Peace Assocation (WPA)</h1>
         <p class="text-center px-5 text-light fw-light my-4 fs-4 w-75 mx-auto">UNWPA is confident that the world as a whole will be improve though activities that protect the right of people to live in peace, solving real world problems not reported in the Japanese mass media.</p>
       </div>
@@ -85,7 +86,7 @@
     <h3 class="fw-bolder my-2 fs-2">LATEST NEWS AND UPDATES</h3>
     <div class="row news-and-events-container">
       <div class="col-sm-6">
-        <div class="row">
+        <div class="row" style="height:97.5%">
           <div class="col-sm-4">
             <img src="assets\latest news and updates\la-consolacion.png" alt="" class="img-fluid">
           </div>
@@ -126,31 +127,31 @@
     <div class="my-0 my-5 py-2 px-5">
       <h3 class="my-4 text-light fw-bold">RECENT EVENTS</h3>
       <div class="row mb-5">
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex">
           <div class="card" style="width: 25rem;">
             <img src="assets\recent events\1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Blanket Distribution Program</h5>
+              <h5 class="card-title fw-bold">Blanket Distribution Program</h5>
               <p class="card-text">Like every year, yesterday on 07/01/2022 Friday UNWPA Bangladesh team arranged a day long Blanket Distribution Program to the poor and needy people in Dhaka Bangladesh for this winter...</p>
               <a href="#" class="btn btn-primary events-button">VIEW MORE</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex">
           <div class="card" style="width: 25rem;">
             <img src="assets\recent events\2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Typhoon hits Malaysia</h5>
+              <h5 class="card-title fw-bold">Typhoon hits Malaysia</h5>
               <p class="card-text">Shah Alam flood mission for the affected area of typhoon. With UNWPA Malaysia, FOC family of Charity, Beacon Society Shary Azmi, Meor Arif. Amb. Marietta Reformado Unwpa Malaysia Head Representative #UNWPA #UNWPAMALAYSIA</p>
               <a href="#" class="btn btn-primary events-button">VIEW MORE</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex">
           <div class="card" style="width: 25rem;">
             <img src="assets\recent events\3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">UNWPA BANGLADESH AND UNWPA INDIA COLLABORATION FOR CHARITY EVENTS</h5>
+              <h5 class="card-title fw-bold">UNWPA BANGLADESH AND UNWPA INDIA COLLABORATION FOR CHARITY EVENTS</h5>
               <p class="card-text">UNWPA India welcomes UNWPA Bangladesh for charity events that will be held from December 21,2021. #UNWPA #UNWPABANGLADESH #UNWPAINDIA</p>
               <a href="#" class="btn btn-primary events-button">VIEW MORE</a>
             </div>
