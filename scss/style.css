@@ -53,7 +53,7 @@ ul.social-media li img {
 .img-fluid-profile {
   height: auto;
   width: 59%;
-  margin-left: 90px;
+  /* margin-left: 90px; */
 }
 .img-size {
   width: 50%;
@@ -95,22 +95,19 @@ ul.social-media li img {
 
 }
 
-.text-white-subtext {
-  margin-left: 110px !important;
-}
 .bkgnd {
   background-color: #24314C;
 }
 .size {
   border-radius: 0.25rem !important;
 }
-.more {
+/* .more {
   border-radius: 4px !important;
   border: 1px solid white !important;
   padding: 2px;
   padding-left: 3px;
   padding-right: 3px;
-}
+} */
 
 .section-1 {
   background-image: url("../assets/homepage/overlay-logo.png"), linear-gradient(140deg, #646464, #959595);
