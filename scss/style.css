@@ -146,6 +146,10 @@ ul.social-media li img {
   border-radius: 40px;
 }
 
+.latest-news-and-events-texts {
+  color: #264caa;
+}
+
 .carousel-caption {
   position: absolute;
   bottom: 200;
