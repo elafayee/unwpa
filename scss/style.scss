@@ -3,6 +3,13 @@ $borderColor2: #ffc228;
 $backgroundColor: #2861F6;
 $gradientColor1: #330d69;
 $gradientColor2: #30c9cd;
+$whitebg: #FFFFFF;
+$aboutbgcolor1: #F0F5FF;
+$aboutbgcolor2:#E8EFFF;
+$aboutbgcolor3: #BAD0FC;
+$aboutbgalt1: linear-gradient(to bottom, #F0F5FF 50%,  #E8EFFF 50%);
+$aboutbgalt2: linear-gradient(to bottom, #E8EFFF 50%, #F0F5FF 50%);
+$aboutbgalt3: linear-gradient(to bottom, $aboutbgcolor2 50%,  $aboutbgcolor2 50%);
 $backgroundColor2: #24314C;
 $grayGradientColor1: #959595;
 $grayGradientColor2: #646464;
@@ -12,6 +19,7 @@ $formColor3: #FFE7A9;
 $formColorStroke: #FFC228;
 $formBgColor: #D78E00;
 $conferenceColor: #24314C;
+
 
 
 .header-bg {
@@ -39,7 +47,7 @@ ul.social-media {
 }
 
 .latest-news-and-events {
-
+    
     .news-and-events-container {
         border: 5px solid $borderColor1;
         padding: 5px;
@@ -61,8 +69,54 @@ ul.social-media {
 
 }
 
+
+// About us
+
+.aboutTitle{
+    background: $aboutbgcolor1;
+}
+
+.missionTitleBg{
+    background-color: $aboutbgcolor3;
+    
+}
+
+.missionBg{
+    background-color: $aboutbgcolor2;
+}
+
+.visionTitleBg{
+    background-color: $aboutbgcolor3;
+}
+
+.visionBg{
+    background-color: $aboutbgcolor1;
+}
+
+.seperatorBg1{
+    background: $aboutbgalt1;
+}
+
+.seperatorBg2{
+    background: $aboutbgalt2;
+}
+
+// UNWPA Board Members
+
+.members_seperatorbg1{
+    background: $aboutbgalt1;
+    align-items: center;
+}
+
+.memberTitle{
+    margin-top: 8rem;
+}
+.membersTitleBg{
+    background-color: $aboutbgcolor3;
+
 .bg-primary-cardbackground {
     background-color: $backgroundColor2;
+
 }
 
 .border-warning-circle {
@@ -75,12 +129,42 @@ ul.social-media {
 
 
 .section-1 {
-    background-image: url('../assets/homepage/overlay-logo.png'), linear-gradient(140deg, $grayGradientColor2, $grayGradientColor1);
-    opacity: 0.5;
-    background-position: -24rem 3rem, left;
-    background-size: contain, cover;
-    background-repeat: no-repeat,no-repeat;
+    background-image: linear-gradient(140deg, $grayGradientColor2, $grayGradientColor1);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.overlay-logo {
+    opacity: .5;
+    position: absolute;
+    margin-left: -243px;
+}
+
+
+.memberCard1{
+    width: 8rem;
+    height: 6rem;
+}
+
+.divider1{
+    justify-content: space-between;
+
+.news-button {
+    color: #fff;
+    background-color: #646464;
+    border-color: #0d6efd;
+    border-radius: 40px;
+}
+
+
+.events-button {
+    color: #fff;
+    background-color: #646464;
+    border-color: #0d6efd;
+    border-radius: 40px;
+}
+
 
 .carousel-caption {
     position: absolute;
@@ -103,242 +187,74 @@ ul.social-media {
 
 .section-right {
     font-size: 10px;
-}
 
-.left-element-with-background-image {
-    position: relative;
-   background-image: url("../assets/upcoming-events/CONFERENCE.jpg");
-   background-size: cover;
-   width: 100%;
-   height: 90vh;
-}
-
-.overlay {
-    width: 100%;
-    height: 100%;            
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 1;
-}
-
-.left-color-overlay {
-   background-image: linear-gradient(269deg, #24314C, #24314c85);
-}
-
-.right-bg {
-    background-color: #24314C;
-}
-
-.form-registration {
-    h1 {
-        color: $formColor1;
-    }
-
-    h3 {
-        color: $formColor2;
-    }
 }
 
 
-.form-input {
-    input {
-        background-color: #24314C;
-        border: 1px solid $formColorStroke;
-    }
+//Partnership Portal
 
-    input::placeholder {
-        color:$formColor3;
-    }
-
-    button {
-        background-color: $formBgColor;
-        border: none;
-    }
+.pPortal_seperatorbg1{
+    $aboutbgalt3;
 }
 
-.head-bg {
-    height: 100vh;
-    margin: 0;
-    background-image: url('../assets/conference-participation/header-bg.jpg');
-    background-size: cover;
-    position: relative;
+.pPortalTitleContainer{
+    background: $whitebg;
 }
 
-.head-bg:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 65%;
-    background: rgba($color: #24314C, $alpha: 0.65);
-    transform: skew(-30deg);
-    transform-origin:top;
+.pPortalTitle{
+    background: $whitebg;
+    margin-top: 8rem;
 }
 
-.conference-button {
-    background-color: transparent;
+.pPortalTitleBg{
+    background-color: $aboutbgcolor3;
 }
 
-.participation-section {
-    color: $conferenceColor;
-    button {
-        background-color: transparent;
-        border: 1px solid $conferenceColor;
-        color: $conferenceColor;
-        border-radius: 0;
-    }
-}
-
-.post1 {
-    height: 205vh;
-    margin: 0;
-    background-size: cover;
-    position: relative;
+.partnershipsBD{
+    background-color: $whitebg;
     
-    h3 {
-        color: #FFC228;
-    }
-
-    h2 {
-        color: #FFC228;
-    }
-
-    p {
-        color: #FFDA7E;
-    }
 }
 
-
-.post1:before {
-    content: "";
-    position: absolute;
-    top: 10%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background: rgba($color: #24314C, $alpha: 1);
-    transform: skewY(4deg);
-    transform-origin:top;
+.partnershipsContainer1{
+    background: $aboutbgcolor2;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
-.post3 {
-    height: 65vh;
-    margin: 0;
-    background-size: cover;
-    position: relative;
-    
-    h3 {
-        color: #FFC228;
-    }
-
-    h4 {
-        color: #FFDA7E;
-    }
-
-    p {
-        color: #FFF3D4;
-    }
+.partnershipsContainer2{
+    display: inline;
 }
 
-
-.post3:before {
-    content: "";
-    position: absolute;
-    top: 10%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background: rgba($color: #24314C, $alpha: 1);
-    transform: skewY(4deg);
-    transform-origin:top;
+.partnerImg{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
 }
 
-.post-participants {
-    h5 {
-        color: #FFDA7E;
-    }
-    p {
-        color: #FFF3D4;
-    }
+.partner_disp{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-.post-participants1 {
-    h5 {
-        color: #333B4E;
-    }
-    p {
-        color: #01081A;
-    }
+.description_1 {
+    padding-top: 50px !important;
 }
 
-.post1-1 {
-    height: 15vh;
-    margin: 0;
-    background-size: cover;
-    position: relative;
+.image-fluid{
+    width: 65% !important;
 }
 
-.post1-1:before {
-    content: "";
-    position: absolute;
-    top: -100%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background: rgba($color: #24314C, $alpha: 1);
-    transform: skewY(-4deg);
-    transform-origin:top;
+.partnerDescription span{
+    vertical-align: middle;
+    margin-top: 50%;
+    font-size: 50px;
 }
 
-.post3-1 {
-    height: 15vh;
-    margin: 0;
-    background-size: cover;
-    position: relative;
+.unicef{
+    height: 92%;
+    margin-top: 10px;
 }
 
-.post3-1:before {
-    content: "";
-    position: absolute;
-    top: -100%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background: rgba($color: #24314C, $alpha: 1);
-    transform: skewY(0deg);
-    transform-origin:top;
-}
-
-.gallery-show {
-    position: relative;
-
-    .gallery-layer {
-        position: absolute;
-        top: 0;
-        width: 97%;
-        height: 87%;
-        background-color: rgba(0, 0, 0, 0.507);
-    }
-}
-
-.small-gallery-layer {
-    position: relative;
-
-    .layer-img {
-        background-color: rgba(0, 0, 0, 0.363);
-        position: absolute;
-        top: 0;
-        width: 75%;
-        height: 90%;
-    }
-}
 
 // Media Queries for Tablet 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -583,3 +499,4 @@ ul.social-media {
 
     }
 }
+
