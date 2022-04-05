@@ -146,11 +146,13 @@ ul.social-media li img {
 }
 
 .partnershipsBD {
-  background-color: #E8EFFF;
+  background-color: #FFFFFF;
 }
 
 .partnershipsContainer1 {
-  background: #BAD0FC;
+  background: #E8EFFF;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .partnershipsContainer2 {
@@ -167,15 +169,24 @@ ul.social-media li img {
 .partner_disp {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding-top: 10rem !important;
 }
 
-.img-fluid-partnerImage {
-  width: 25px !important;
-  height: auto !important;
+.description_1 {
+  padding-top: 50px !important;
 }
 
-.partnershipsBD .partnershipsContainer1 .partnershipsContainer2 .partner_disp .image {
-  opacity: .5;
+.image-fluid {
+  width: 65% !important;
+}
+
+.partnerDescription span {
+  vertical-align: middle;
+  margin-top: 50%;
+  font-size: 50px;
+}
+
+.unicef {
+  height: 92%;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -9,7 +9,7 @@ $aboutbgcolor2:#E8EFFF;
 $aboutbgcolor3: #BAD0FC;
 $aboutbgalt1: linear-gradient(to bottom, #F0F5FF 50%,  #E8EFFF 50%);
 $aboutbgalt2: linear-gradient(to bottom, #E8EFFF 50%, #F0F5FF 50%);
-
+$aboutbgalt3: linear-gradient(to bottom, $aboutbgcolor2 50%,  $aboutbgcolor2 50%);
 
 
 .header-bg {
@@ -154,6 +154,10 @@ ul.social-media {
 
 //Partnership Portal
 
+.pPortal_seperatorbg1{
+    $aboutbgalt3;
+}
+
 .pPortalTitleContainer{
     background: $whitebg;
 }
@@ -168,12 +172,14 @@ ul.social-media {
 }
 
 .partnershipsBD{
-    background-color: $aboutbgcolor2;
+    background-color: $whitebg;
     
 }
 
 .partnershipsContainer1{
-    background: $aboutbgcolor3;
+    background: $aboutbgcolor2;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .partnershipsContainer2{
@@ -189,14 +195,23 @@ ul.social-media {
 .partner_disp{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding-top: 10rem!important;
 }
 
-.img-fluid-partnerImage{
-    width: 25px !important;
-  height: auto !important;
+.description_1 {
+    padding-top: 50px !important;
 }
 
-.partnershipsBD .partnershipsContainer1 .partnershipsContainer2 .partner_disp .image{
-    opacity: .5;
+.image-fluid{
+    width: 65% !important;
+}
+
+.partnerDescription span{
+    vertical-align: middle;
+    margin-top: 50%;
+    font-size: 50px;
+}
+
+.unicef{
+    height: 92%;
+    margin-top: 10px;
 }

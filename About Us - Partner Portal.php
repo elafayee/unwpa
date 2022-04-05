@@ -31,14 +31,14 @@
                     </div>
                 </div>
 
-            <div class="col-sm-10.5 p-5 d-flex justify-content-center mb-5 partnershipsContainer1">
+            <div class="col-sm-10.5 pt-5 d-flex justify-content-center partnershipsContainer1">
                 <div class="container-fluid m-0 p-0 partnershipsContainer2">
 
                     <div class="container-fluid m-0 p-1 d-flex justify-content-center partner_disp">
-                            <div class="col-sm-4 justify-content-center">  
-                                <img class="image" src="assets\about us\woldforworld.png">                       
+                            <div class="col-sm-4">  
+                                <img class="image-fluid justify-content-center w-75" alt="world" src="assets\about us\woldforworld.png" >                       
                             </div>     
-                            <div class="col-sm-3 p-3 justify-content-center">
+                            <div class="col-sm-3 p-3 justify-content-center description_1">
                                 <span class="text-center partnerDescription"> 
                                     Joining the world for world organization (UN NGO IRENE Network),  to support and to act for the achievements of 
                                     the Global Agenda. WFWO believe that only with global partnerships and solidarity of all, and hearing the voices 
@@ -47,9 +47,9 @@
                             </div>               
                     </div>
 
-                    <div class="container-fluid m-0 p-5 d-flex justify-content-center partner_disp">
+                    <div class="container-fluid m-0 pt-5 pb-5 d-flex justify-content-center partner_disp">
                             <div class="col-sm-4 justify-content-center partnerImg">  
-                                <img src="assets\about us\undesa.png" class="img-fluid-partnerImage">                       
+                                <img src="assets\about us\undesa.png" class="img-fluid partnerImage">                       
                             </div>     
                             <div class="col-sm-3 p-3 justify-content-center">
                                 <span class="text-center partnerDescription"> 
@@ -58,7 +58,7 @@
                             </div>          
                     </div>
 
-                    <div class="container-fluid m-0 p-5 d-flex justify-content-center partner_disp">
+                    <div class="container-fluid m-0 pt-5 pb-5 d-flex justify-content-center partner_disp">
                             <div class="col-sm-4 justify-content-center partnerImg">  
                                 <img src="assets\about us\UIA.png" class="img-fluid-partnerImage">                       
                             </div>     
@@ -68,7 +68,7 @@
                             </div>               
                     </div>
 
-                    <div class="container-fluid m-0 p-1 d-flex justify-content-center partner_disp">
+                    <div class="container-fluid m-0 pt-5 pb-5 d-flex justify-content-center partner_disp">
                             <div class="col-sm-4 justify-content-center partnerImg">  
                                 <img src="assets\about us\ec_logo.png" class="img-fluid-partnerImage">                       
                             </div>     
@@ -78,17 +78,17 @@
                             </div>              
                     </div>
 
-                    <div class="container-fluid m-0 p-5 d-flex justify-content-center partner_disp">
+                    <div class="container-fluid m-0 pt-5 pb-5 d-flex justify-content-center partner_disp">
                             <div class="col-sm-4 justify-content-center partnerImg">  
                                 <img src="assets\about us\UPP.jpg" class="img-fluid-partnerImage">                       
                             </div>     
-                            <div class="col-sm-3 p-3 justify-content-center">
+                            <div class="col-sm-3 justify-content-center">
                                 <span class="text-center partnerDescription"> 
                                 UN Partner Portal</span>
                             </div>               
                     </div>
 
-                    <div class="container-fluid m-0 p-5 pb-5 d-flex justify-content-center partner_disp">
+                    <div class="container-fluid m-0 pt-5 pb-5-5 d-flex justify-content-center partner_disp">
                             <div class="col-sm-4 justify-content-center partnerImg">  
                                 <img src="assets\about us\VolunteerMatch.png" class="img-fluid-partnerImage">                       
                             </div>     

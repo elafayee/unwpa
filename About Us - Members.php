@@ -37,7 +37,8 @@
 
                 <div class="container-fluid row d-flex justify-content-center divider1">
                     <div class="card mt-5 px-5 memberCard0"> 
-                        <div class="col-sm-5 p-3 justify-content-center memberImage">  
+                        <div class="col-sm-5 p-3 justify-content-center memberIma
+                        ge">  
                             <img src="assets\about us\MIA.png" class="img-fluid-profImage">                       
                         </div>     
                         <div>
