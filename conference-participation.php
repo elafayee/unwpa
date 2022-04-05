@@ -6,11 +6,12 @@
     <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
     <link href="assets\homepage\logo.png" rel="icon">
     <link rel="stylesheet" href="scss\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <!-- Header Section -->
   <?php include 'includes\header.php' ?>
-    <!-- Head Section -->
+   <!-- Head Section -->
   <div class="container-fluid head-bg">
     <div class="d-flex align-items-center ms-5 bd-highlight mb-3 text-light" style="height: 100vh; position: absolute; z-index:2; ">
         <div class="p-2 bd-highlight  ms-5">
@@ -227,27 +228,45 @@
     <div class="container-fluid mx-5">
         <h2 class="fw-bold text-center my-5">Gallery</h2>
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-7 gallery-show">
                 <img src="assets\conference-participation\a56b8f48ef874e873085544ad8ddb193_609ccfb8c01a2b250c8c23f951b8b949.jpg" class="img-fluid w-100" alt="">
-                <h5></h5>
-                <a href=""></a>
+                <div class="gallery-layer d-flex align-items-end bd-highlight mb-3">
+                    <div class="gallery-context ms-5 mb-5 pb-5">
+                        <h5 class="fs-2 fw-light text-light">Myanmar</h5>
+                    <a href="" class="text-decoration-none text-light fw-5 mb-5 pb-3">See More</a>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-5">
-                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, provident molestiae blanditiis dolor eos, quidem amet magnam similique delectus quam, reprehenderit explicabo culpa consequuntur corrupti iure minima sunt inventore perspiciatis?</p> -->
+                <div class="small-gallery-layer">
                 <img class="img-fluid w-75 m-3 mt-0" src="assets\conference-participation\8c2fc18d96dcdb965aebb9627f63295f_3ae34f8c36e72a8949a83b0472b03be1.jpg" alt="">
-                <img class="img-fluid w-75 m-3" src="assets\conference-participation\be16a689d6a2f2f34037da26617f3ead_4989dfbcb6ba1ea9737c9e18e7a63d0e.jpg" alt="">
+                    <div class="layer-img my-3 ms-3"></div>
+                </div>
+                <div class="small-gallery-layer">
+                    <img class="img-fluid w-75 m-3" src="assets\conference-participation\be16a689d6a2f2f34037da26617f3ead_4989dfbcb6ba1ea9737c9e18e7a63d0e.jpg" alt="">
+                    <div class="layer-img my-3 ms-3"></div>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-5">
-                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, provident molestiae blanditiis dolor eos, quidem amet magnam similique delectus quam, reprehenderit explicabo culpa consequuntur corrupti iure minima sunt inventore perspiciatis?</p> -->
-                <img class="img-fluid w-75 m-3 mt-0" src="assets\conference-participation\thailand1.jpg" alt="">
-                <img class="img-fluid w-75 m-3" src="assets\conference-participation\d4139627747ef87f3c98637ad1b3f6c3_1057322745d5cdd6d6ecfb6eb833d7e0.jpg" alt="">
+                <div class="small-gallery-layer">
+                    <img class="img-fluid w-75 m-3 mt-0" src="assets\conference-participation\thailand1.jpg" alt="">
+                    <div class="layer-img my-3 ms-3"></div>
+                </div>
+                <div class="small-gallery-layer">
+                    <img class="img-fluid w-75 m-3" src="assets\conference-participation\d4139627747ef87f3c98637ad1b3f6c3_1057322745d5cdd6d6ecfb6eb833d7e0.jpg" alt="">
+                    <div class="layer-img my-3 ms-3"></div>
+                </div>
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-7 gallery-show">
                 <img src="assets\conference-participation\09839e240c8600d2e793b0543c3f8e95_52001487273c6776cd75dfedf86d48cb.jpg" class="img-fluid w-100" alt="">
-                <h5></h5>
-                <a href=""></a>
+                <div class="gallery-layer d-flex align-items-end bd-highlight mb-3">
+                    <div class="gallery-context ms-5 mb-5 pb-5">
+                        <h5 class="fs-2 fw-light text-light">Thailand</h5>
+                    <a href="" class="text-decoration-none text-light fw-5 mb-5 pb-3">See More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

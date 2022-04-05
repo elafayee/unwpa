@@ -6,12 +6,13 @@
     <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
     <link href="assets\homepage\logo.png" rel="icon">
     <link rel="stylesheet" href="scss\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <!-- Header Section -->
   <?php include 'includes\header.php' ?>
     <!-- Page Content Section -->
-    <div class="container-fluid p-0">
+  <div class="container-fluid p-0">
     <div class="row m-0 p-0">
         <div class="col-sm-6 p-0">
             <div class="left-element-with-background-image">
@@ -23,7 +24,7 @@
                     <p class="text-light fw-light text-decoration-underline mb-5">Upcoming Events</p>
                   </div>
                   <div class="p-2 bd-highlight">
-                    <h1 class="fs-1 text-light pe-5 mb-2 mt-5">2020 World Congress Entry Form</h1>
+                    <h1 class="fs-1 text-light pe-5  mb-2 mt-5">2020 World Congress Entry Form</h1>
                   </div>
                   <div class="p-2 bd-highlight">
                     <p class="text-light pe-5 fw-light">If you are interested in attending the UNWPA World Congress 2020, please fill out the form and contact us. The person in charge will contact you via email at a later date.</p>
