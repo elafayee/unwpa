@@ -1,0 +1,229 @@
+body {
+  background-color: #f4f7ff;
+}
+
+h1 {
+  color: #07327c;
+  font-weight: bolder;
+  margin-top: 57px;
+  margin-bottom: 57px;
+}
+
+#mainpic {
+  width: 800px;
+  height: 675px;
+}
+
+#india {
+  width: 254px;
+  height: 149px;
+  margin-top: 0px;
+  position: absolute;
+  opacity: 0.8;
+}
+
+#india:hover {
+  opacity: 1;
+}
+
+#malaysia {
+  width: 254px;
+  height: 149px;
+  margin-top: 175px;
+  position: absolute;
+  opacity: 0.8;
+}
+
+#malaysia:hover {
+  opacity: 1;
+}
+
+#srilanka {
+  width: 254px;
+  height: 149px;
+  margin-top: 349px;
+  position: absolute;
+  opacity: 0.8;
+}
+
+#srilanka:hover {
+  opacity: 1;
+}
+
+#Thai {
+  width: 254px;
+  height: 149px;
+  margin-top: 525px;
+  position: absolute;
+  opacity: 0.8;
+}
+
+#Thai:hover {
+  opacity: 1;
+}
+
+#prev {
+  width: 196px;
+  height: 300px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+#div1 {
+  height: 800px;
+}
+
+#con1 {
+  width: 1900px;
+}
+
+#indiaCollab {
+  width: 210px;
+  height: 50px;
+  position: absolute;
+  margin-top: 106px;
+  margin-left: 25px;
+}
+
+#malayFood {
+  text-align: left;
+  margin-left: 25px;
+  width: 210px;
+  height: 50px;
+  position: absolute;
+  margin-top: 261px;
+}
+
+#srilankaCharity {
+  text-align: left;
+  width: 210px;
+  height: 50px;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 25px;
+}
+
+#thaiSmartChild {
+  text-align: left;
+  width: 210px;
+  height: 50px;
+  position: absolute;
+  margin-top: 620px;
+  margin-left: 25px;
+}
+
+.btn {
+  font-size: 13px;
+  color: gray;
+  padding: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    color: #07327c;
+    font-weight: bolder;
+    margin-top: 57px;
+    margin-bottom: 57px;
+    font-size: 45px;
+  }
+
+  #mainpic {
+    width: 699px;
+    height: 675px;
+  }
+
+  #india {
+    width: 254px;
+    height: 149px;
+    margin-top: 0px;
+    position: absolute;
+  }
+
+  #malaysia {
+    width: 254px;
+    height: 149px;
+    margin-top: 175px;
+    position: absolute;
+  }
+
+  body {
+    background-color: #f4f7ff;
+  }
+
+  #srilanka {
+    width: 254px;
+    height: 149px;
+    margin-top: 349px;
+    position: absolute;
+  }
+
+  #Thai {
+    width: 254px;
+    height: 149px;
+    margin-top: 525px;
+    position: absolute;
+  }
+
+  h2 {
+    text-align: right;
+    margin-left: 1340px;
+    margin-top: -708px;
+    width: 250px;
+  }
+
+  #prev {
+    width: 196px;
+    height: 300px;
+    margin-left: 1350px;
+    margin-top: -60px;
+  }
+
+  #div1 {
+    height: 800px;
+  }
+
+  #con1 {
+    width: 1900px;
+  }
+
+  #indiaCollab {
+    text-align: left;
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    margin-top: 106px;
+    color: #ffffff;
+    margin-left: 350px;
+  }
+
+  #malayFood {
+    text-align: left;
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    margin-top: 261px;
+    color: #ffffff;
+    margin-right: 602px;
+    margin-left: 350px;
+  }
+
+  #srilankaCharity {
+    text-align: left;
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    margin-top: 450px;
+    color: #ffffff;
+    margin-left: 350px;
+  }
+
+  #thaiSmartChild {
+    text-align: left;
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    margin-top: 620px;
+    color: #ffffff;
+    margin-left: 350px;
+  }
+}
